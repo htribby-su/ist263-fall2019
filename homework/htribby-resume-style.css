@@ -1,0 +1,32 @@
+
+header {
+    text-align: center;
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    background-image: url("gradient_bg.png");
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+h2 {
+   text-decoration: underline;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ 
+}
+h3 {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+span{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+p {
+line-height: 5px;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: left;
+}

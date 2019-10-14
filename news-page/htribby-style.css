@@ -1,0 +1,32 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background-color: #333333;
+    color: white;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;  
+}

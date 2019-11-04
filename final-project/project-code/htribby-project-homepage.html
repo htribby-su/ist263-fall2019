@@ -3,26 +3,43 @@
 <head>
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="htribby-project-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <header class="background-image">
-        <img src="./images/syracuse-downtown.jpg" alt="Salina Place in downtown Syracuse"/>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="htribby-project-homepage.html">Home</a></li>
+                <li><a href="htribby-project-food.html">Food</a></li>
+                <li><a href="htribby-project-oncampus.html">On Campus Activities</a></li>
+                <li><a href="htribby-project-offcampus.html">Off Campus Activities</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="htribby-project-homepage.html">Home</a>
-        <a href="htribby-project-food.html">Food</a>
-        <a href="htribby-project-oncampus.html">On Campus Activities</a>
-        <a href="htribby-project-offcampus.html">Off Campus Activities</a>
-    </nav>
-    <main>
-        <h1>Welcome to Syracuse!</h1>
-        <p>This website is for anyone new to Syracuse or looking to find something to do. <br>
-        Let this website be your guide to get out and explore what this city has to offer!</p>
-    </main>
-    <footer>
-        <p>Copyright Information:</p>
-        <p>Bazado, Bill. (Photographer). (2014, January 4). Salina Place ~ Syracuse Ny ~ South Salina Street Downtown Historic District [digital image]. <br>
-        Retrieved from https://www.flickr.com/photos/onasill/11760426344/in/photostream/</p>
-    </footer>
+    <div class="flex-container container">
+        <section class="flex-item">
+            <main class="flex-container">
+                <article class="flex-item-home card">
+                <h1 class="home">Welcome to Syracuse!</h1>
+                <p class="home main">This website is for anyone new to Syracuse or looking to find something to do. <br>
+                Let this website be your guide to get out and explore what this city has to offer!</p>
+                </article>
+            </main>
+            <footer class="flex-container">
+                    <article class="flex-item-home card">
+                    <p class="copyright">Copyright Information:</p>
+                    <p class="copyright">Bazado, Bill. (Photographer). (2014, January 4). Salina Place ~ Syracuse Ny ~ South Salina Street Downtown Historic District [digital image]. <br>
+                    Retrieved from https://www.flickr.com/photos/onasill/11760426344/in/photostream/</p>
+                    </article>
+            </footer>
+        </section>
+        <aside class="flex-item card">
+            <h2 class="home">About the Author</h2>
+            <p class="home">Hannah Tribby is a second-year undergraduate student at Syracuse University.</p>
+            <p class="home">She is majoring in Information Management and Technology with a concentration in Data Analytics at the iSchool.</p>
+            
+        </aside>
+    </div>
 </body>
 </html>

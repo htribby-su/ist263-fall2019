@@ -1,0 +1,160 @@
+/*same for all pages*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ededf4;
+}
+/* navigation bar styling */
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8da7be;
+}
+
+li {
+    float: left;   
+}
+
+li a {
+    display: block;
+    padding: 16px 16px;
+    text-decoration: none; 
+    color: black;
+}
+
+li a:hover {
+    background-color: #d4cdc3;
+}
+/* end navigation bar styling */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid #f79d5c;
+
+    padding: 5px;  
+  }
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;    
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: left;
+    font-weight: bold;
+}
+/* home page styling*/
+.flex-item-home {
+    flex: 2;
+}
+
+h1.home {
+    font-size: 300%;
+}
+
+p.home {
+    text-align: center;
+}
+
+p.main {
+    font-size: 150%;
+}
+
+/*food page styling*/
+h3.food {
+    font-size: 120%;
+}
+/*make food info lay out vertically */
+.food-info {
+    flex-direction: column;
+}
+
+img.responsive-food {
+    width: 70%;
+    height: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p.food {
+    text-align: center;
+}
+/*on campus page styling*/
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-item-oncampus {
+    flex: 3;
+}
+
+img.off-campus {
+    width: 50%;
+    height: auto;
+    margin-right: 100px;
+}
+
+
+/*off campus page styling*/
+
+.flex-item-offcampus {
+    flex: 2;
+}
+
+img.fair {
+    width: 50%;
+    height: auto;
+
+}
+
+img.off-campus {
+    width: 50%;
+    height: auto;
+}
+
+img.cny {
+    width: 50%;
+    height: auto;
+    margin-right: 100px;
+}
+
+article.off-campus {
+    margin-left: 15px;
+}
+
+p.copyright {
+    font-size: 90%;
+}
+
+ul.off-campus {
+    list-style-type: circle;
+}

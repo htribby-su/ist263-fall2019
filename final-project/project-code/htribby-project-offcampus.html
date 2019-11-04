@@ -3,52 +3,63 @@
 <head>
     <title>Off Campus Activities</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="htribby-project-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
+        <ul class="nav">
+            <li><a href="htribby-project-homepage.html">Home</a></li>
+            <li><a href="htribby-project-food.html">Food</a></li>
+            <li><a href="htribby-project-oncampus.html">On Campus Activities</a></li>
+           <li><a href="htribby-project-offcampus.html">Off Campus Activities</a></li>
+        </ul>
         <h1>Activites Off Campus</h1>
     </header>
-    <nav>
-        <a href="htribby-project-homepage.html">Home</a>
-        <a href="htribby-project-food.html">Food</a>
-        <a href="htribby-project-oncampus.html">On Campus Activites</a>
-        <a href="htribby-project-offcampus.html">Off Campus Activities</a>
-    </nav>
 
-    <main>
-        <section class="nys-fair">
-            <h2>The New York State Fair</h2>
-            <p>The New York State Fair occurs every fall right here in Syracuse!</p>
-            <p>The fair includes agriculture, museums, concerts, rides, and of course lots of fried food.</p>
-            <p>Syracuse University usually runs a shuttle to and from the fair, and there is a weekend where college students get in for only $1!</p>
-            <p>This is a great place to go and have a fun night with your friends.</p>
-            <img src="./images/nys-fair.jpg" alt="The New York State Fair"/>
+<div class="flex-container container">
+    <main class="flex-item-offcampus">
+        <section class="flex-container card">
+            <img  class="flex-item fair" src="./images/nys-fair.jpg" alt="The New York State Fair"/>
+            <article class="flex-item off-campus">
+                <h2>The New York State Fair</h2>
+                <p>The New York State Fair occurs every fall right here in Syracuse!</p>
+                <p>The fair includes agriculture, museums, concerts, rides, and of course lots of fried food.</p>
+                <p>Syracuse University usually runs a shuttle to and from the fair, and there is a weekend where college students get in for only $1!</p>
+                <p>This is a great place to go and have a fun night with your friends.</p>
+            </article>
         </section>
-        <section class="apple-picking">
-            <h2>Apple Picking</h2>
-            <p>Apple picking is a classic fall activity in New York.</p>
-            <p>There are many different orchards nearby campus, and the university usually provides a free trip for first year students!</p>
-            <p>Visit a farm near you to pick lots of apples, drink some warm apple cider, and even get an apple cider donut!</p>
-            <img src="./images/apple-picking.jpg" alt="apples on a tree"/>
+        <section class="flex-container card">
+            <img class ="flex-item off-campus" src="./images/apple-picking.jpg" alt="apples on a tree"/>
+            <article class="flex-item">
+                <h2>Apple Picking</h2>
+                <p>Apple picking is a classic fall activity in New York.</p>
+                <p>There are many different orchards nearby campus, and the university usually provides a free trip for first year students!</p>
+                <p>Visit a farm near you to pick lots of apples, drink some warm apple cider, and even get an apple cider donut!</p>
+            </article>
         </section>
-        <section class="green-lakes">
-            <h2>Green Lakes State Park</h2>
-            <p>Green Lakes State Park is located about 20 minutes away from Syracuse University.</p>
-            <p>The park includes a golf course, beaches, boat rentals, picnic areas, and much more.</p>
-            <p>This is a great place to go to enjoy the final summer days before the notorious Syracuse winter arrives!</p>
-            <img src="./images/green-lakes.jpg" alt="Green Lakes State Park"/>
+        <section class="flex-container card">
+            <img class="flex-item off-campus" src="./images/green-lakes.jpg" alt="Green Lakes State Park"/>
+            <article class="flex-item">
+                <h2>Green Lakes State Park</h2>
+                <p>Green Lakes State Park is located about 20 minutes away from Syracuse University.</p>
+                <p>The park includes a golf course, beaches, boat rentals, picnic areas, and much more.</p>
+                <p>This is a great place to go to enjoy the final summer days before the notorious Syracuse winter arrives!</p>
+            </article>
         </section>
-        <section class="cny-regional-market">
-            <h2>Central New York Regional Market</h2>
-            <p>The CNY Regional Market is a local farmers market located right by the train station and Destiny USA mall.</p>
-            <p>This market is open year-round on Saturday and Sunday from 7am to 2pm.</p>
-            <p>This is a great place to come and get some fresh food and to get to know your local neighbors!</p>
-            <img src="./images/cny-market.jpg" alt="The Central New York Regional Market"/>
+        <section class="flex-container card">
+            <img class="flex-item cny" src="./images/cny-market2.jpg" alt="The Central New York Regional Market"/>
+            <article class="flex-item">
+                <h2>Central New York Regional Market</h2>
+                <p>The CNY Regional Market is a local farmers market located right by the train station and Destiny USA mall.</p>
+                <p>This market is open year-round on Saturday and Sunday from 7am to 2pm.</p>
+                <p>This is a great place to come and get some fresh food and to get to know your local neighbors!</p>
+            </article>
         </section>
     </main>
-    <aside>
+    <aside class="flex-item">
         <h3>Learn More</h3>
-        <ul>
+        <ul  class="off-campus">
             <li><a href="https://nysfair.ny.gov/" target="_blank">The NYS Fair</a></li>
             <li>Apple Farms
                 <ul>
@@ -61,15 +72,16 @@
             <li><a href="https://www.facebook.com/CNYRMA/?rf=1630122850582640" target="_blank">CNY Regional Market</a></li>
         </ul>
     </aside>
+</div>
     <footer>
-        <p>Copyright Information:</p>
-        <p>Image 1: Shlabotnik, Joe (photographer). (2016, September 4). New York State Fair Midway [digital image]. <br>
+        <p class="copyright">Copyright Information:</p>
+        <p class="copyright">Image 1: Shlabotnik, Joe (photographer). (2016, September 4). New York State Fair Midway [digital image]. <br>
         Retrieved from: https://www.flickr.com/photos/joeshlabotnik/30162907930/in/photostream/</p>
-        <p>Image 2: Gobetz, Wally (photographer). (2015, September 4). Apple Picking [digital image]. <br>
+        <p class="copyright">Image 2: Gobetz, Wally (photographer). (2015, September 4). Apple Picking [digital image]. <br>
         Retrieved from: https://www.flickr.com/photos/wallyg/21017266920/ </p>
-        <p>Image 3: Neuberger, Larry (photographer). (2017, July 27). Green Lakes State Park [digital image] <br>
+        <p class="copyright">Image 3: Neuberger, Larry (photographer). (2017, July 27). Green Lakes State Park [digital image] <br>
         Retrieved from: https://www.flickr.com/photos/pfx_photo/36051486476</p>
-        <p>Image 4: Owned by me.</p>
+        <p class="copyright">Image 4: Owned by me.</p>
     </footer>
 </body>
 </html>
